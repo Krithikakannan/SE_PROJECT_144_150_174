@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+src/config/env.js
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE configs
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# PM2 logs
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS-generated files
+ehthumbs.db
+desktop.ini
+
+# Upload folders (optional)
+uploads/
